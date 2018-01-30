@@ -7,7 +7,6 @@
         <meta name="format-detection" content="telephone=no">
         <meta http-equiv="x-rim-auto-match" content="none">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-        <link rel="icon" href="img/favicon.ico">
         <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
         <!-- <link rel="stylesheet" href="plugins/fullpage/jquery.fullpage.css"> -->
         <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all">
@@ -17,85 +16,124 @@
     </head>
     <body>
         <div class="maincontent">
-            <div class="header__fixed header__fixed--faq">
-                <div class="header__top">
-                    <div class="container-fluid">
-                        
-                        <div class="row justify-content-between">
-                            
-                            
-                            <nav class="navbar navbar-expand-xl">
-                                <a class="navbar-brand" href="en/index.html">
-                                    <img src="img/logo_left.png" alt="" class="logo__pic-left">
-                                    <img src="img/logo_right.png" alt="" class="logo__pic-right">
-                                </a>
-                                <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                                </button>
-                                <div class="hidden-xl">
-                                    <ul class="navbar-nav mr-auto">
-                                        <li class="nav-item">
-                                            <a href="#header" class="nav-link">ICO</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#about-us" class="nav-link">about wt</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#ico" class="nav-link">ICO structure</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#cost" class="nav-link">cost structure</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#roadmap" class="nav-link">roadmap</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#tech" class="nav-link">technical</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#team" class="nav-link">team</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#footer" class="nav-link">contacts</a>
-                                        </li>
-                                    </ul>
-                                </div> -->
+            <div class="header__top header__top--faq">
+                <div class="header__container">
+                    <div class="navigation">
+                        <a href="#" class="hamburger">
+                            <div class="ham__menu"></div>
+                            <div class="ham__menu"></div>
+                            <div class="ham__menu"></div>
+                        </a>
+                        <div class="hamburger__menu">
+                            <a href="#" class="close-btn">
+                                <img src="img/cross.png" alt="cross" class="close-pic">
+                            </a>
+                            <nav class="ham__nav" id="ham-menu">
+                                <ul class="ham__list">
+                                    <li class="ham__item">
+                                        <a href="#header" class="ham__link">Home</a>
+                                    </li>
+                                    <li class="ham__item">
+                                        <a href="#about-us" class="ham__link">About US</a>
+                                    </li>
+                                    <li class="ham__item">
+                                        <a href="#tokens" class="ham__link">We Token</a>
+                                    </li>
+                                    <li class="ham__item">
+                                        <a href="#ico" class="ham__link">ICO Structure</a>
+                                    </li>
+                                    <li class="ham__item">
+                                        <a href="#cost" class="ham__link">Cost Structure</a>
+                                    </li>
+                                    <li class="ham__item">
+                                        <a href="#roadmap" class="ham__link">Roadmap</a>
+                                    </li>
+                                    <li class="ham__item">
+                                        <a href="#tech" class="ham__link">Technical</a>
+                                    </li>
+                                    <li class="ham__item">
+                                        <a href="#team" class="ham__link">Team</a>
+                                    </li>
+                                    <li class="ham__item">
+                                        <a href="#footer" class="ham__link">Contacts</a>
+                                    </li>
+                                </ul>
                             </nav>
-                            
-                            <ul class="header__top--items">
-                                <li class="flag-item"><a href="ru/index.html"><img src="img/flags/russia.png" alt=""></a></li>
-                                <li class="flag-item"><a href="en/index.html"><img src="img/flags/uk.png" alt=""></a></li>
-                                <li class="btn-item"><a class="btn btn-default btn-default__icon" href="en/login.html"><i class="fa fa-user-circle-o" aria-hidden="true"></i> <span class="btn-text">Login</span></a></li>
-                                <li class="btn-item"><a class="btn btn-default btn-default__icon" href="en/signup.html"><i class="fa fa-sign-in" aria-hidden="true"></i> <span class="btn-text">Sign Up</span></a></li>
-                            </ul>
                         </div>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav mr-auto">
-                                <li class="nav-item">
-                                    <a href="#header" class="nav-link">ICO</a>
+                        <a href="#" class="logo">
+                            <img src="img/logo.png" alt="logo" class="logo__pic">
+                        </a>
+                        <nav class="nav__bar">
+                            <ul class="nav__list" id="top-menu">
+                                <li class="nav__item">
+                                    <a href="#header" class="nav__link">ico</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a href="#about-us" class="nav-link">about wt</a>
+                                <li class="nav__item">
+                                    <a href="#about-us" class="nav__link">about</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a href="#ico" class="nav-link">ICO structure</a>
+                                <li class="nav__item">
+                                    <a href="#tokens" class="nav__link">wt</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a href="#cost" class="nav-link">cost structure</a>
+                                <li class="nav__item">
+                                    <a href="#ico" class="nav__link">ico structure</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a href="#roadmap" class="nav-link">roadmap</a>
+                                <li class="nav__item">
+                                    <a href="#cost" class="nav__link">cost structure</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a href="#tech" class="nav-link">technical</a>
+                                <li class="nav__item">
+                                    <a href="#roadmap" class="nav__link">roadmap</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a href="#team" class="nav-link">team</a>
+                                <li class="nav__item">
+                                    <a href="#tech" class="nav__link">technical</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a href="#footer" class="nav-link">contacts</a>
+                                <li class="nav__item">
+                                    <a href="#team" class="nav__link">team</a>
                                 </li>
+                                <li class="nav__item">
+                                    <a href="#footer" class="nav__link">contacts</a>
+                                </li>
+                                <!-- <li class="nav__item">
+                                    <a href="#" class="nav__link">team</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#" class="nav__link">faq</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#" class="nav__link">news</a>
+                                </li> -->
                             </ul>
+                        </nav>
+                    </div>
+                    <div class="header__right">
+                        <div class="flags">
+                            <a href="#" class="flag__item">
+                                <img src="img/flags/russia.png" alt="flag" class="flag__pic">
+                            </a>
+                            <a href="#" class="flag__item">
+                                <img src="img/flags/uk.png" alt="flag" class="flag__pic">
+                            </a>
+                            <!-- <a href="#" class="flag__item">
+                                <img src="img/flags/spain.png" alt="flag" class="flag__pic">
+                            </a>
+                            <a href="#" class="flag__item">
+                                <img src="img/flags/japan.png" alt="flag" class="flag__pic">
+                            </a>
+                            <a href="#" class="flag__item">
+                                <img src="img/flags/china.png" alt="flag" class="flag__pic">
+                            </a>
+                            <a href="#" class="flag__item">
+                                <img src="img/flags/india.png" alt="flag" class="flag__pic">
+                            </a> -->
+                        </div>
+                        <div class="login__btns">
+                            <a href="#" class="btn btn--login">
+                                <i class="fa fa-user-circle-o login__icon" aria-hidden="true"></i>
+                                Login
+                            </a>
+                            <a href="#" class="btn btn--login">
+                                <i class="fa fa-user-circle-o login__icon" aria-hidden="true"></i>
+                                Sign in
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -110,51 +148,65 @@
                             <div class="faq__item">
                                 <div class="acco__trigger acco__trigger--active">
                                     <a data-toggle="collapse" data-parent="#accordion" href="#accordion1" aria-expanded="true" aria-controls="accordion1" class="acco__link">
-                                        What is World Wi-Fi?
+                                        Что такое World Wi-Fi
                                         <div class="acco__triangle"></div>
                                     </a>
                                 </div>
                                 <div id="accordion1" class="collapse show" role="tabpanel">
                                     <div class="acco__text">
-                                        World Wi-Fi is a global decentralized free network. The participants of the platform include ordinary users, router owners and advertisers. The users enjoy free internet, router owners are paid by advertisers for the ads viewed by the users; advertisers receive an effective tool for targeting of advertising and analytics of advertising campaign effectiveness.
+                                        World Wi-Fi — блокчейн-платформа для создания глобальной децентрализованной бесплатной сети Wi-Fi, объединяющей преимущественно домашние роутеры. Участники платформы — обычные пользователи, владельцы роутеров и рекламодатели. Пользователи получают бесплатный интернет; владельцы роутеров получают вознаграждение от рекламодателей за рекламу, просмотренную пользователями; рекламодатели получают эффективный инструмент таргетинга рекламы и аналитики рекламных кампаний.
                                     </div>
                                 </div>
                             </div>
                             <div class="faq__item">
                                 <div class="acco__trigger">
                                     <a data-toggle="collapse" data-parent="#accordion" href="#accordion2" aria-expanded="false" aria-controls="accordion2" class="acco__link">
-                                        What is ICO?
+                                        Что такое ICO?
                                         <div class="acco__triangle"></div>
                                     </a>
                                 </div>
                                 <div id="accordion2" class="collapse" role="tabpanel">
                                     <div class="acco__text">
-                                        ICO (Initial Coin Offering ) is a model of crowdfinding that allows to raise funds in exchange of tokens. Each token gives its owner the right to receive profit according to the declared conditions.
+                                        ICO (Первичное предложение монет) - это модель краудфандинга, которая позволяет нам выпускать цифровые токены в обмен на инвестиции. Каждый токен дает право его владельцу на получение прибыли по объявленным условиям.
                                     </div>
                                 </div>
                             </div>
                             <div class="faq__item">
                                 <div class="acco__trigger">
                                     <a data-toggle="collapse" data-parent="#accordion" href="#accordion3" aria-expanded="false" aria-controls="accordion3" class="acco__link">
-                                        Do you have a Bounty program?
+                                        Есть ли баунти и где я могу найти информацию о ней?
                                         <div class="acco__triangle"></div>
                                     </a>
                                 </div>
                                 <div id="accordion3" class="collapse" role="tabpanel">
                                     <div class="acco__text">
-                                        "Yes, the incentive program has already started and will operate until the end of ICO.<a href="https://bitcointalk.org/index.php?topic=2583384">https://bitcointalk.org/index.php?topic=2583384</a>
+                                        "Да, есть, с деталями Вы можете ознакомиться по ссылке
+                                        <a href="https://bitcointalk.org/index.php?topic=2583384">https://bitcointalk.org/index.php?topic=2583384</a>
                                         Telegram Channel: @wwfbounty"
                                     </div>
                                 </div>
                             </div>
-                            <div class="faq__item">
+<!--                             <div class="faq__item">
                                 <div class="acco__trigger">
                                     <a data-toggle="collapse" data-parent="#accordion" href="#accordion4" aria-expanded="false" aria-controls="accordion4" class="acco__link">
-                                        What is the address of the company?
+                                        Кто вы такие?
                                         <div class="acco__triangle"></div>
                                     </a>
                                 </div>
                                 <div id="accordion4" class="collapse" role="tabpanel">
+                                    <div class="acco__text">
+                                        Мы владельцы уже существующего и работающего бизнеса в сфере wifi хотспотов и wifi рекламы, ознакомиться с нашей командой и разработчиками можно на главной странице сайта worldwifi.io, а также пообщаться лично в телеграмм чате https://t.me/world_wifi.
+                                    </div>
+                                </div>
+                            </div> -->
+                            <div class="faq__item">
+                                <div class="acco__trigger">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#accordion5" aria-expanded="false" aria-controls="accordion5" class="acco__link">
+                                        Каков адрес фирмы?
+                                        <div class="acco__triangle"></div>
+                                    </a>
+                                </div>
+                                <div id="accordion5" class="collapse" role="tabpanel">
                                     <div class="acco__text">
                                         94 Joo Chiat Rd, Singapore 427388 Joo Chiat Rd, Singapore 427388
                                     </div>
@@ -162,33 +214,31 @@
                             </div>
                             <div class="faq__item">
                                 <div class="acco__trigger">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#accordion5" aria-expanded="false" aria-controls="accordion5" class="acco__link">
-                                        What social networks do you use? Where can I find official links to your social accounts?
-                                        <div class="acco__triangle"></div>
-                                    </a>
-                                </div>
-                                <div id="accordion5" class="collapse" role="tabpanel">
-                                    <div class="acco__text">
-                                        We use Telegram/ Bitcointalk /Wechat /Twitter /Facebook /Youtube /Instagram
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="faq__item">
-                                <div class="acco__trigger">
                                     <a data-toggle="collapse" data-parent="#accordion" href="#accordion6" aria-expanded="false" aria-controls="accordion6" class="acco__link">
-                                        I still have questions …
+                                        Какие социальные сети Вы используете?
                                         <div class="acco__triangle"></div>
                                     </a>
                                 </div>
                                 <div id="accordion6" class="collapse" role="tabpanel">
                                     <div class="acco__text">
-                                        "The best way to learn about the project is to contact us directly. A list of all means of communication is at the bottom of each page of the site.
-                                        E-mail – info@bananacoin.io
-                                        Social media – Telegram Bitcointalk Wechat Twitter Facebook Youtube Instagram"
+                                        Мы используем Telegram/ Bitcointalk /Wechat /Twitter /Facebook /Youtube /Instagram
                                     </div>
                                 </div>
                             </div>
-                            <!--                             <div class="faq__item">
+                            <div class="faq__item">
+                                <div class="acco__trigger">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#accordion7" aria-expanded="false" aria-controls="accordion7" class="acco__link">
+                                        У меня остались вопросы…
+                                        <div class="acco__triangle"></div>
+                                    </a>
+                                </div>
+                                <div id="accordion7" class="collapse" role="tabpanel">
+                                    <div class="acco__text">
+                                        Лучший способ узнать о проекте - связаться с нами напрямую. Список всех средств связи находится внизу каждой страницы сайта.
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="faq__item">
                                 <div class="acco__trigger">
                                     <a data-toggle="collapse" data-parent="#accordion" href="#accordion7" aria-expanded="false" aria-controls="accordion7" class="acco__link">
                                         Why did you not find for classical investors?
@@ -204,78 +254,81 @@
                             <div class="faq__item">
                                 <div class="acco__trigger">
                                     <a data-toggle="collapse" data-parent="#accordion" href="#accordion8" aria-expanded="false" aria-controls="accordion8" class="acco__link">
-                                        Why do not you use only classical methods of attracting investments?
+                                        Почему вы не используете классические методы привлечения инвестиций? Такие как банковский кредит или частный инвестор?
                                         <div class="acco__triangle"></div>
                                     </a>
                                 </div>
                                 <div id="accordion8" class="collapse" role="tabpanel">
                                     <div class="acco__text">
-                                        Good question. First, attracting different private investors may lead to business disagreements. We are professionals in our field and we know how to make a successfull business. Second, attracting money through the ICO does not give investors a share in business, it is a financial instrument and after fulfilling obligations the business itself will remain in the hands of the team.
+                                        Хороший вопрос. Во-первых, привлечение частных инвесторов может привести к последствиям из басни "Лебедь Рак и Щука". Мы профессионалы своего дела и знаем как сделать  бизнес успешным. Во-вторых, привлечение денег через ICO не дает инвесторам доли в бизнесе, это финансовый инструмент, после выполнения обязательств по которому бизнес останется в руках команды.
                                     </div>
                                 </div>
                             </div>
                             <div class="faq__item">
                                 <div class="acco__trigger">
                                     <a data-toggle="collapse" data-parent="#accordion" href="#accordion9" aria-expanded="false" aria-controls="accordion9" class="acco__link">
-                                        In what jurisdiction ICO is conducted?
+                                        В какой юрисдикции проводится ICO?
                                         <div class="acco__triangle"></div>
                                     </a>
                                 </div>
                                 <div id="accordion9" class="collapse" role="tabpanel">
                                     <div class="acco__text">
-                                        Singapore and the US (Delaware)
+                                        Сингапур и штат Делавер (США)
                                     </div>
                                 </div>
                             </div>
                             <div class="faq__item">
                                 <div class="acco__trigger">
                                     <a data-toggle="collapse" data-parent="#accordion" href="#accordion10" aria-expanded="false" aria-controls="accordion10" class="acco__link">
-                                        What is the current technical stage in the project development? Were there any tests conducted? Are there any results of those available? Do you have a MVP available for demonstration?
+                                        Какая на текущий момент техническая стадия развития проекта? Были ли тесты – доступны ли результаты? Имеется ли MVP для демонстрации?
                                         <div class="acco__triangle"></div>
                                     </a>
                                 </div>
                                 <div id="accordion10" class="collapse" role="tabpanel">
                                     <div class="acco__text">
-                                        We have two working  businesses for selling Wi-Fi advertising and hotspots. The model is tested in b2b marketing and has been runing for 2 years. The total number of connected access points is trending at 14,000 in 80 cities. In March a blockchain based model will be launched.
+                                        "Два работающих бизнеса, по продаже рекламы и хотспоты, в б2б сегменте
+                                        модель проверена и работает уже 2 года.
+                                        Общее количество подключенных точек – около 14000, 80 городов.
+                                        В марте выпускаем версию с блокчейн составляющей. "
                                     </div>
                                 </div>
                             </div>
                             <div class="faq__item">
                                 <div class="acco__trigger">
                                     <a data-toggle="collapse" data-parent="#accordion" href="#accordion11" aria-expanded="false" aria-controls="accordion11" class="acco__link">
-                                        What legal base and expertise the project is premised on?
+                                        На чем строится правовая база и экспертиза проекта?
                                         <div class="acco__triangle"></div>
                                     </a>
                                 </div>
                                 <div id="accordion11" class="collapse" role="tabpanel">
                                     <div class="acco__text">
-                                        User identification is conducted in compliance with the relevant legislation
+                                        В зависимости от законодательства происходит идентификация юзера
                                     </div>
                                 </div>
                             </div>
                             <div class="faq__item">
                                 <div class="acco__trigger">
                                     <a data-toggle="collapse" data-parent="#accordion" href="#accordion12" aria-expanded="false" aria-controls="accordion12" class="acco__link">
-                                        On what exchanges you trade?
+                                        На каких биржах будут доступны ваши токены?
                                         <div class="acco__triangle"></div>
                                     </a>
                                 </div>
                                 <div id="accordion12" class="collapse" role="tabpanel">
                                     <div class="acco__text">
-                                        Out tokens will be available on exchanges upon the ICO completion.
+                                        Наши токены будут доступны на биржах после этапа ICO.
                                     </div>
                                 </div>
                             </div>
                             <div class="faq__item">
                                 <div class="acco__trigger">
                                     <a data-toggle="collapse" data-parent="#accordion" href="#accordion13" aria-expanded="false" aria-controls="accordion13" class="acco__link">
-                                        Where they will be manufactured (purchased) and what is a router price?
+                                        Где будет производиться (покупаться), стоимость роутера
                                         <div class="acco__triangle"></div>
                                     </a>
                                 </div>
                                 <div id="accordion13" class="collapse" role="tabpanel">
                                     <div class="acco__text">
-                                        No need to buy a new router for World Wi-Fi. Most residential routers are compatible with our software.
+                                        Где будет производиться (покупаться), стоимость роутера
                                     </div>
                                 </div>
                             </div>
@@ -285,33 +338,33 @@
                             <div class="faq__item">
                                 <div class="acco__trigger">
                                     <a data-toggle="collapse" data-parent="#accordion" href="#accordion14" aria-expanded="false" aria-controls="accordion14" class="acco__link">
-                                        When is the PRESALE?
+                                        Когда PRESALE?
                                         <div class="acco__triangle"></div>
                                     </a>
                                 </div>
                                 <div id="accordion14" class="collapse" role="tabpanel">
                                     <div class="acco__text">
-                                        PRESALE is on from 28 November to 16 March. More info at <a href="https://worldwifi.io">https://worldwifi.io</a>
+                                        PRESALE идет с 28 ноября по 16 марта. Подробности тут <a href="https://worldwifi.io">https://worldwifi.io</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="faq__item">
                                 <div class="acco__trigger">
                                     <a data-toggle="collapse" data-parent="#accordion" href="#accordion15" aria-expanded="false" aria-controls="accordion15" class="acco__link">
-                                        When is the ICO?
+                                        Когда ICO?
                                         <div class="acco__triangle"></div>
                                     </a>
                                 </div>
                                 <div id="accordion15" class="collapse" role="tabpanel">
                                     <div class="acco__text">
-                                        ICO Start/End Date: 18 MARCH / 18 APRIL, 2018
+                                        Дата начала/окончания ICO: 18 марта / 18 апреля, 2018
                                     </div>
                                 </div>
                             </div>
                             <div class="faq__item">
                                 <div class="acco__trigger">
                                     <a data-toggle="collapse" data-parent="#accordion" href="#accordion16" aria-expanded="false" aria-controls="accordion16" class="acco__link">
-                                        Is there a minimum amount of funds you need to raise?
+                                        Есть ли минимальный объем средств, который Вы планируете собрать?
                                         <div class="acco__triangle"></div>
                                     </a>
                                 </div>
@@ -326,107 +379,113 @@
                             <div class="faq__item">
                                 <div class="acco__trigger">
                                     <a data-toggle="collapse" data-parent="#accordion" href="#accordion17" aria-expanded="false" aria-controls="accordion17" class="acco__link">
-                                        What will be the volume/quantity of tokens issued during the private sale?
+                                        Какое количество токенов планируется продать на закрытых продажах?
                                         <div class="acco__triangle"></div>
                                     </a>
                                 </div>
                                 <div id="accordion17" class="collapse" role="tabpanel">
                                     <div class="acco__text">
-                                        The volume of token will be fixed 60,000,000 WeToken
+                                        60,000,000 WeToken
                                     </div>
                                 </div>
                             </div>
                             <div class="faq__item">
                                 <div class="acco__trigger">
                                     <a data-toggle="collapse" data-parent="#accordion" href="#accordion18" aria-expanded="false" aria-controls="accordion18" class="acco__link">
-                                        Is the number of tokens limited?
+                                        Ограничено ли количество токенов?
                                         <div class="acco__triangle"></div>
                                     </a>
                                 </div>
                                 <div id="accordion18" class="collapse" role="tabpanel">
                                     <div class="acco__text">
-                                        Yes.
+                                        Да.
                                     </div>
                                 </div>
                             </div>
                             <div class="faq__item">
                                 <div class="acco__trigger">
                                     <a data-toggle="collapse" data-parent="#accordion" href="#accordion19" aria-expanded="false" aria-controls="accordion19" class="acco__link">
-                                        On which platform will be the token sale based on?
+                                        На какой платформе будет произведена реализация токенов?
                                         <div class="acco__triangle"></div>
                                     </a>
                                 </div>
                                 <div id="accordion19" class="collapse" role="tabpanel">
                                     <div class="acco__text">
-                                        The token sale will be based on the Ethereum platform
+                                        На платформе Ethereum
                                     </div>
                                 </div>
                             </div>
                             <div class="faq__item">
                                 <div class="acco__trigger">
                                     <a data-toggle="collapse" data-parent="#accordion" href="#accordion20" aria-expanded="false" aria-controls="accordion20" class="acco__link">
-                                        Are there any restrictions for participation in ICO?
+                                        Есть ли ограничения для участия в ICO?
                                         <div class="acco__triangle"></div>
                                     </a>
                                 </div>
                                 <div id="accordion20" class="collapse" role="tabpanel">
                                     <div class="acco__text">
-                                        By purchasing a token in the course of ICO, or in any other way you agree that you are not a citizen of the United States, Singapore, Canada, or any other country where tokens are equated to securities. Also, you must know whether you are violating the law of your country.
+                                        Преобретая токен в ходе ICO, либо каким-либо другим способом вы даете согласие, что вы не гражданин  Сингапура, Китая, либо любой другой страны, где токены приравниваются к ценным бумагам. Также вы должны знать не нарушается ли вами закон вашей страны.
                                     </div>
                                 </div>
                             </div>
                             <div class="faq__item">
                                 <div class="acco__trigger">
                                     <a data-toggle="collapse" data-parent="#accordion" href="#accordion21" aria-expanded="false" aria-controls="accordion21" class="acco__link">
-                                        How much tokens will be available for purchase?
+                                        Сколько всего токенов доступно для покупки?
                                         
                                         <div class="acco__triangle"></div>
                                     </a>
                                 </div>
                                 <div id="accordion21" class="collapse" role="tabpanel">
                                     <div class="acco__text">
-                                        During PRESALE and ICO, 258,000,000 WT will be available for purchase.
+                                        Всего 258,000,000 WT доступно для покупки.
                                     </div>
                                 </div>
                             </div>
                             <div class="faq__item">
                                 <div class="acco__trigger">
                                     <a data-toggle="collapse" data-parent="#accordion" href="#accordion22" aria-expanded="false" aria-controls="accordion22" class="acco__link">
-                                        Of particularly concern is the issue of the structure of the invested funds: you allocate 5% for contingencies which is almost $1,3 – what do those include, provided that as many as 20% go to the legal and technical component?
-                                        
+                                        "Вызывают вопросы и структура привлекаемой суммы.
+                                        5% вы выделяете не непредвиденные расходы – это почти $1,3 млн: что это за расходы, если на правовую и техническую составляющую и так уходит более 20%?"
                                         <div class="acco__triangle"></div>
                                     </a>
                                 </div>
                                 <div id="accordion22" class="collapse" role="tabpanel">
                                     <div class="acco__text">
-                                        We have made a consolidated summary of estimates for the project promotion. A 5% adjustment might be incorporated for pricing fluctuation which is an appropriate standard of practice.
+                                        "У нас просчитан укрупненный бюджет на продвижение проекта. В силу
+                                        возможных ценовых колебаний может быть корректировка бюджета
+                                        в пределах 5%, это нормальная практика."
                                     </div>
                                 </div>
                             </div>
                             <div class="faq__item">
                                 <div class="acco__trigger">
                                     <a data-toggle="collapse" data-parent="#accordion" href="#accordion23" aria-expanded="false" aria-controls="accordion23" class="acco__link">
-                                        3% is allocated for advisers. This is a considerable amount ($774 when calculated in numbers). As many as 25 to 30 advisers might be engaged for the above amount. Could you provide more details about those?
+                                        3% уходит, как вы говорите, на Эдвайзеров. Это внушительная сумма ($774 тыс. при идеальном подсчете). На вышеуказанную сумму можно привлечь порядка 25-30 эвайзеров. можете, пожалуйста, предоставить о них подробную информацию?
                                         <div class="acco__triangle"></div>
                                     </a>
                                 </div>
                                 <div id="accordion23" class="collapse" role="tabpanel">
                                     <div class="acco__text">
-                                        At the current stage we have been negotiating with top leaders of the cryptocurrency community. 3% account for engaging top advisers. At an early stage of the campaign, not all advisors have entered into agreements which is par for the course.
+                                        "На данном этапе мы ведем переговоры с топовыми представителями
+                                        крипто-сообщества.
+                                        3% - это с учетом привлечения топовых эдвайзеров.
+                                        На этапе старта кампании еще не все эдвайзеры законтрактованы,
+                                        и это тоже в порядке вещей."
                                     </div>
                                 </div>
                             </div>
                             <div class="faq__item">
                                 <div class="acco__trigger">
                                     <a data-toggle="collapse" data-parent="#accordion" href="#accordion24" aria-expanded="false" aria-controls="accordion24" class="acco__link">
-                                        Where a smart contract is available?
+                                        Где доступен смарт-контракт?
                                         
                                         <div class="acco__triangle"></div>
                                     </a>
                                 </div>
                                 <div id="accordion24" class="collapse" role="tabpanel">
                                     <div class="acco__text">
-                                        In GitHub prior to ICO
+                                        На гитхабе перед ICO
                                     </div>
                                 </div>
                             </div>
@@ -436,7 +495,7 @@
                             <div class="faq__item">
                                 <div class="acco__trigger">
                                     <a data-toggle="collapse" data-parent="#accordion" href="#accordion25" aria-expanded="false" aria-controls="accordion25" class="acco__link">
-                                        How can I purchase tokens?
+                                        Как покупать токены?
                                         
                                         <div class="acco__triangle"></div>
                                     </a>
@@ -450,81 +509,95 @@
                             <div class="faq__item">
                                 <div class="acco__trigger">
                                     <a data-toggle="collapse" data-parent="#accordion" href="#accordion26" aria-expanded="false" aria-controls="accordion26" class="acco__link">
-                                        How to find the cost of one token relative to Etherium or Bitcoin?
+                                        Как узнать стоимость одного токена по отношению к Эфириуму и Биткоину ?
                                         
                                         <div class="acco__triangle"></div>
                                     </a>
                                 </div>
                                 <div id="accordion26" class="collapse" role="tabpanel">
                                     <div class="acco__text">
-                                        The cost is calculated automatically at the time of confirmation of the transaction by the network based on the average value of the price on the exchanges.
+                                        Стоимость рассчитывается автоматически на момент подтверждения транзакции сетью по усредненному значения цены на биржах.
                                     </div>
                                 </div>
                             </div>
                             <div class="faq__item">
                                 <div class="acco__trigger">
                                     <a data-toggle="collapse" data-parent="#accordion" href="#accordion27" aria-expanded="false" aria-controls="accordion27" class="acco__link">
-                                        What is the cost of one token?
+                                        Какова стоимость одного токена?
                                         
                                         <div class="acco__triangle"></div>
                                     </a>
                                 </div>
                                 <div id="accordion27" class="collapse" role="tabpanel">
                                     <div class="acco__text">
-                                        1 WeToken = 10 advertising impressions in World Wi-Fi = $0.1 - at ICO stage.
+                                        1 WeToken = 10 рекламных показов World Wi-Fi = $0.1 - на этапе ICO.
                                     </div>
                                 </div>
                             </div>
-                            <div class="faq__item">
+<!--                             <div class="faq__item">
                                 <div class="acco__trigger">
                                     <a data-toggle="collapse" data-parent="#accordion" href="#accordion28" aria-expanded="false" aria-controls="accordion28" class="acco__link">
-                                        How can I invest?
+                                        Какие страховки от волатильности криптовалюты у инвесторов ? Сейчас перспективнее купить биткоины.
                                         
                                         <div class="acco__triangle"></div>
                                     </a>
                                 </div>
                                 <div id="accordion28" class="collapse" role="tabpanel">
                                     <div class="acco__text">
-                                        There are detailed instructions on the main page of the site, if necessary our support in the Telegram chat can help you. The easiest way is to transfer the etherium to a smart contract from your personal wallet with the erc223 standard. The tokens return to your wallet automatically after confirmation of network.
+                                        Мы ведем бизнес в сфере интернета и маркетинга, это очень перспективный рынок.  На счет перспектив инвестирования – личный выбор и стратегия каждого, мы готовы делиться своей бизнес-моделью.
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                             <div class="faq__item">
                                 <div class="acco__trigger">
                                     <a data-toggle="collapse" data-parent="#accordion" href="#accordion29" aria-expanded="false" aria-controls="accordion29" class="acco__link">
-                                        I want to make payment in dollars, how to do it?
+                                        Как я могу инвестировать?
                                         
                                         <div class="acco__triangle"></div>
                                     </a>
                                 </div>
                                 <div id="accordion29" class="collapse" role="tabpanel">
                                     <div class="acco__text">
-                                        For beginners in the field of crypto currencies, there is a detailed instruction on the initial page. If it is a large investment (from $ 50,000), the organizers are ready for a personal meeting.
+                                        Подробная инструкция – на основной странице сайта, в случае необходимости вам может помочь поддержка в чате телеграмм. Самый простой способ - перевод эфириума на смарт контракт со своего персонального кошелька со стандартом erc223. Токены вернуться на ваш кошелек автоматически после подтверждения сети.
                                     </div>
                                 </div>
                             </div>
                             <div class="faq__item">
                                 <div class="acco__trigger">
                                     <a data-toggle="collapse" data-parent="#accordion" href="#accordion30" aria-expanded="false" aria-controls="accordion30" class="acco__link">
-                                        On the main page of the site and in my personal account there are various addresses of directions to the etherium, where to pay?
+                                        Я хочу сделать платеж в долларах, как это сделать?
+                                        
                                         <div class="acco__triangle"></div>
                                     </a>
                                 </div>
                                 <div id="accordion30" class="collapse" role="tabpanel">
                                     <div class="acco__text">
-                                        If you pay from a personal wallet, with the erc223 standard, you can pay directly to the address of the smart contract (address on the main page), the tokens return in automatic mode. If the exchange is with a stock exchange, exchanger, etc., then it is necessary to use a personal cabinet, tokens will be credited in it.
+                                        Для новичков в области крипто валют есть подробная инструкция на начальной странице. Если это крупная инвестиции (от 50.000 $) организаторы готовы к живой встрече.
                                     </div>
                                 </div>
                             </div>
                             <div class="faq__item">
                                 <div class="acco__trigger">
                                     <a data-toggle="collapse" data-parent="#accordion" href="#accordion31" aria-expanded="false" aria-controls="accordion31" class="acco__link">
-                                        Maximum number of tokens
-                                        
+                                        На главной странице сайта и в личном кабинете разные адреса кошелька эфириум, куда платить?
                                         <div class="acco__triangle"></div>
                                     </a>
                                 </div>
                                 <div id="accordion31" class="collapse" role="tabpanel">
+                                    <div class="acco__text">
+                                        Если вы оплачиваете с персонального кошелька, со стандартом erc223, то можете оплачивать непосредственно на адрес смарт контракта (адрес на главной странице), токены вернуться в автоматическом режиме. Если обмен идет с биржи, обменника и пр., то необходимо использовать персональный кабинет, токены будут начисляться в нем.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq__item">
+                                <div class="acco__trigger">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#accordion32" aria-expanded="false" aria-controls="accordion32" class="acco__link">
+                                        Максимальное число выпущенных токенов
+                                        
+                                        <div class="acco__triangle"></div>
+                                    </a>
+                                </div>
+                                <div id="accordion32" class="collapse" role="tabpanel">
                                     <div class="acco__text">
                                         600,000,000
                                     </div>
@@ -532,27 +605,27 @@
                             </div>
                             <div class="faq__item">
                                 <div class="acco__trigger">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#accordion32" aria-expanded="false" aria-controls="accordion32" class="acco__link">
-                                        What’s the minimum of investment during token sale?
-                                        <div class="acco__triangle"></div>
-                                    </a>
-                                </div>
-                                <div id="accordion32" class="collapse" role="tabpanel">
-                                    <div class="acco__text">
-                                        The minimal possible purchase is 1 WeToken
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="faq__item">
-                                <div class="acco__trigger">
                                     <a data-toggle="collapse" data-parent="#accordion" href="#accordion33" aria-expanded="false" aria-controls="accordion33" class="acco__link">
-                                        What is the gas?
+                                        Какое минмальное количество токенов можно будет приобрести?
                                         <div class="acco__triangle"></div>
                                     </a>
                                 </div>
                                 <div id="accordion33" class="collapse" role="tabpanel">
                                     <div class="acco__text">
-                                        The gas is a unit of measurement in which the prices for calculations on the Etherium are measured. The more complex calculation is, the more it is rewarded with gas. This works as follows: the originator of a smart contract sets the price in gases. Miners, on whose computers the calculations are performed, decide whether to perform these calculations or not. If the price is too high, the calculations, and the contract, will never be executed.
+                                        Минимально возможная покупка - 1 токен.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq__item">
+                                <div class="acco__trigger">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#accordion34" aria-expanded="false" aria-controls="accordion34" class="acco__link">
+                                        Что такое газ?
+                                        <div class="acco__triangle"></div>
+                                    </a>
+                                </div>
+                                <div id="accordion34" class="collapse" role="tabpanel">
+                                    <div class="acco__text">
+                                        Газ – это единица измерения, в которой измеряются цены за вычисления на Эфириуме. Более сложные вычисления вознаграждаются большим количеством газа. Это работает следующим образом: оригинатор смарт-контракта устанавливает цену в газах. Майнеры, на чьих компьютерах проходят вычисления, решают, производить эти вычисления или нет. Если цена установлена слишком низкой, вычисления, а значит и контракт, никогда не будут исполнены.
                                     </div>
                                 </div>
                             </div>
@@ -561,63 +634,63 @@
                             </div>
                             <div class="faq__item">
                                 <div class="acco__trigger">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#accordion34" aria-expanded="false" aria-controls="accordion34" class="acco__link">
-                                        The ERC223 standard of the token, what is it?
-                                        <div class="acco__triangle"></div>
-                                    </a>
-                                </div>
-                                <div id="accordion34" class="collapse" role="tabpanel">
-                                    <div class="acco__text">
-                                        This is the most modern standard for a token based on the Etherium network. It will support the transparency of transactions with investors. Important: your etherium wallet must support this standard to obtain tokens.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="faq__item">
-                                <div class="acco__trigger">
                                     <a data-toggle="collapse" data-parent="#accordion" href="#accordion35" aria-expanded="false" aria-controls="accordion35" class="acco__link">
-                                        On which exchanges will the tokens be traded?
+                                        Стандарт токена erc223, что это?
                                         <div class="acco__triangle"></div>
                                     </a>
-                                    
                                 </div>
                                 <div id="accordion35" class="collapse" role="tabpanel">
                                     <div class="acco__text">
-                                        This information will be published in July 2018, at this stage negotiations are in progress.
+                                        Это самый современный стандарт токена на базе сети Эфириум. Он будет поддерживать прозрачность операций с инвесторами. Важно: ваш кошелек эфириум должен поддерживать данный стандарт для получения токенов.
                                     </div>
                                 </div>
                             </div>
                             <div class="faq__item">
                                 <div class="acco__trigger">
                                     <a data-toggle="collapse" data-parent="#accordion" href="#accordion36" aria-expanded="false" aria-controls="accordion36" class="acco__link">
-                                        How will the tokens be redeemed?
+                                        На каких биржах будут торговаться токены?
                                         <div class="acco__triangle"></div>
                                     </a>
                                     
                                 </div>
                                 <div id="accordion36" class="collapse" role="tabpanel">
                                     <div class="acco__text">
-                                        We are developing a transparent algorithm for open redemption. Previously, this will be the redemption of tokens from exchanges, and we also consider connecting the capabilities of our site for this purpose.
+                                        Данная информация будет опубликована в июле 2018, на данном этапе ведутся переговоры.
                                     </div>
                                 </div>
                             </div>
-                            <div class="faq__title">
-                                Security
-                            </div>
-                            <!--                             <div class="faq__item">
+                            <div class="faq__item">
                                 <div class="acco__trigger">
                                     <a data-toggle="collapse" data-parent="#accordion" href="#accordion37" aria-expanded="false" aria-controls="accordion37" class="acco__link">
-                                        How do you ensure the safekeeping of the tokens?
+                                        Как будут выкупаться токены?
                                         <div class="acco__triangle"></div>
                                     </a>
                                     
                                 </div>
                                 <div id="accordion37" class="collapse" role="tabpanel">
                                     <div class="acco__text">
-                                        The vast majority of the system's tokens is kept in cold storage, and we ensure the strict safety procedures. Account access in secured with two-factor verification which prevents unauthorized access.
+                                        Мы разрабатываем прозрачный алгоритм открытого выкупа. Предварительно это будет выкуп токенов с бирж, также рассматриваем подключения возможностей нашего сайта для этой цели.
                                     </div>
                                 </div>
-                            </div> -->
+                            </div>
+                            <div class="faq__title">
+                                Security
+                            </div>
                             <div class="faq__item">
+                                <div class="acco__trigger">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#accordion38" aria-expanded="false" aria-controls="accordion38" class="acco__link">
+                                        Как я буду знать, что мои токены в сохранности?
+                                        <div class="acco__triangle"></div>
+                                    </a>
+                                    
+                                </div>
+                                <div id="accordion38" class="collapse" role="tabpanel">
+                                    <div class="acco__text">
+                                        Ваши токены будут храниться на вашем криптовалютном кошельке.
+                                    </div>
+                                </div>
+                            </div>
+                            <!--                             <div class="faq__item">
                                 <div class="acco__trigger">
                                     <a data-toggle="collapse" data-parent="#accordion" href="#accordion38" aria-expanded="false" aria-controls="accordion38" class="acco__link">
                                         How do I know my tokens are secure?
@@ -630,39 +703,23 @@
                                         Your tokens will be securely stored in your wallet. We use the encryption with two factor authentification.
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                             <div class="faq__title">
                                 Team
                             </div>
-                            <!--                             <div class="faq__item">
+                            <div class="faq__item">
                                 <div class="acco__trigger">
                                     <a data-toggle="collapse" data-parent="#accordion" href="#accordion39" aria-expanded="false" aria-controls="accordion39" class="acco__link">
-                                        What is your CEO background?
+                                        Какие компетенции у Вашей технической команды?
                                         <div class="acco__triangle"></div>
                                     </a>
                                     
                                 </div>
                                 <div id="accordion39" class="collapse" role="tabpanel">
                                     <div class="acco__text">
-                                        "Our CEO - Ilya Yashin.
-                                        Experience working in IT for 17 years.
-                                        Graduated from Bauman Moscow State Technical University. For 5 years,  working in various capacities in Federal Rescue Service as fire fighter, foreman, senior communication technician in the Office for the coordination of the RF Rescue Service. After that, working for the Research and Implementation Center of automated systems as tester of software and engineer. Founder of the system integrator Jack IT. Co-founder of Radius Wi-Fi, a technological project to provide owners of Wi-Fi public networks with software to identify users via a phone number. Co-Founder of AdRenta, the first aggregator of Wi-Fi public hotspots for sales of advertising."
-                                    </div>
-                                </div>
-                            </div> -->
-                            <div class="faq__item">
-                                <div class="acco__trigger">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#accordion40" aria-expanded="false" aria-controls="accordion40" class="acco__link">
-                                        What are the skills of your techical director?
-                                        <div class="acco__triangle"></div>
-                                    </a>
-                                    
-                                </div>
-                                <div id="accordion40" class="collapse" role="tabpanel">
-                                    <div class="acco__text">
-                                        Eugene Khashin
+                                        Евгений Хашин
                                         CTO
-                                        Education: TSU - Mathematician, Aptech CE - Database specialist. Co-founder of the first Russian PaaS "Dokkur", CTO "Swanager - infrastructure provider".
+                                        Образование: ТГУ ИМФИ - Математик, Aptech CE - Database specialist. Соучредитель первой Российской PaaS "Dokkur", CTO инфраструктурного провайдера "Swanager".
                                     </div>
                                 </div>
                             </div>
@@ -671,49 +728,115 @@
                             </div>
                             <div class="faq__item">
                                 <div class="acco__trigger">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#accordion40" aria-expanded="false" aria-controls="accordion40" class="acco__link">
+                                        Чем Вы отличаетесь от Хот Вай Фай
+                                        <div class="acco__triangle"></div>
+                                    </a>
+                                    
+                                </div>
+                                <div id="accordion40" class="collapse" role="tabpanel">
+                                    <div class="acco__text">
+                                        Подписная модель – принцип радиуса,World Wi-Fi – Не подписная
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq__item">
+                                <div class="acco__trigger">
                                     <a data-toggle="collapse" data-parent="#accordion" href="#accordion41" aria-expanded="false" aria-controls="accordion41" class="acco__link">
-                                        How is your project different from Hot Wi-Fi?
+                                        Кто уже Инвестировал в Ваш проект
                                         <div class="acco__triangle"></div>
                                     </a>
                                     
                                 </div>
                                 <div id="accordion41" class="collapse" role="tabpanel">
                                     <div class="acco__text">
-                                        The subscription model is used in Radius, and World Wi-Fi is not based on a subscription model
+                                        "Фаундеры инвестировали личные средства, а также мы уже приняли
+                                        деньги от частных инвесторов и фондов"
                                     </div>
                                 </div>
                             </div>
                             <div class="faq__item">
                                 <div class="acco__trigger">
                                     <a data-toggle="collapse" data-parent="#accordion" href="#accordion42" aria-expanded="false" aria-controls="accordion42" class="acco__link">
-                                        Who has already invested into your project?
+                                        С кем и как планируете развивать по миру?
                                         <div class="acco__triangle"></div>
                                     </a>
                                     
                                 </div>
                                 <div id="accordion42" class="collapse" role="tabpanel">
                                     <div class="acco__text">
-                                        The project initiators have invested personal funds. In addition, we have collected funds from private investors and foundations
+                                        "World Wi-Fi – это технологическая платформа, которая будет развиваться за
+                                        счет вовлечения новых участников через маркетинговую и PR кампанию в различных регионах
+                                        (подробнее можно ознакомиться, изучив финмодель), а также за счет вовлечения в нашу реферальную программу
+                                        системных администраторов, установщиков роутеров и прочего оборудования.
+                                        Помимо этого, мы планируем развивать бизнес в публичных Wi-Fi сетях по всему миру,
+                                        это уже существующяя и работающая бизнес модель
+                                        (по этой системе работают наши действующие проекты Adrenta и Radius Wi-Fi)"
                                     </div>
                                 </div>
                             </div>
-                            <div class="faq__item">
+                            <!-- <div class="faq__item">
                                 <div class="acco__trigger">
                                     <a data-toggle="collapse" data-parent="#accordion" href="#accordion43" aria-expanded="false" aria-controls="accordion43" class="acco__link">
-                                        How are you going to partner with to develop globally?
+                                        "Где гарантия того, что, инвестируя деньги,
+                                        мы потом сможем произвести обмен, и ценность не упадет до нуля?"
                                         <div class="acco__triangle"></div>
                                     </a>
                                 </div>
                                 <div id="accordion43" class="collapse" role="tabpanel">
                                     <div class="acco__text">
-                                        World Wi-Fi is a technological platform to be developed though engaging new participants via marketing and PR campaigns in many regions (see details in Financial Model), as well as by engaging system administrators, router installation servicemen, etc. in our referral program. Besides, it is our intention to develop the business throughout public Wi-Fi networks around the world which is an already existing business model (our existing projects Adrenta and Radius Wi-Fi are based on that system).
+                                        Инвестиции в ICO основаны на анализе проектов, команды, юридических документов, на основании которых происходит процесс инвестирования. Данные инвестиции являются высокодоходными и высокорискованными. Гарантии и обеспечения это не про ICO.
                                     </div>
                                 </div>
                             </div>
+                            <div class="faq__item">
+                                <div class="acco__trigger">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#accordion44" aria-expanded="false" aria-controls="accordion44" class="acco__link">
+                                        "Как будет строиться ваша стратегия и как будут достигаться заявленные цели,
+                                        в ситуации критического падения цен
+                                        на криптовалюты в последний день (несколько дней)
+                                        вашего ICO? Например, вы соберете X млн.
+                                        Но после резкого падения в последний день сборов,
+                                        ваши активы составят лишь Y млн. Как в таком случае вы будете действовать?"
+                                        <div class="acco__triangle"></div>
+                                    </a>
+                                </div>
+                                <div id="accordion44" class="collapse" role="tabpanel">
+                                    <div class="acco__text">
+                                         Наш hard cap привязан к долларам США, поэтому падение криптовалют не влияет на наши планы. Существуют различные механизмы для хеджирования курсовых рисков на этапе ICO.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq__item">
+                                <div class="acco__trigger">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#accordion45" aria-expanded="false" aria-controls="accordion45" class="acco__link">
+                                        Есть какие то ноу-хау или интересные фишки, благодаря которым вы уверены, что проект будет успешен
+                                        <div class="acco__triangle"></div>
+                                    </a>
+                                </div>
+                                <div id="accordion45" class="collapse" role="tabpanel">
+                                    <div class="acco__text">
+                                         Наш проект это первая в мире децентрализованная платформа, которая объединяет владельцев роутеров, пользователей, которым становиться доступен бесплатный интернет после просмотра рекламы и рекламодателей, которые могут транслировать свою рекламу в wi-fi сетях. Техническая особенность проекта применение блокчейн агностика.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq__item">
+                                <div class="acco__trigger">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#accordion45" aria-expanded="false" aria-controls="accordion45" class="acco__link">
+                                        чем это ICO отличается от тонн других, которые сейчас появляются один за одним.
+                                        <div class="acco__triangle"></div>
+                                    </a>
+                                </div>
+                                <div id="accordion45" class="collapse" role="tabpanel">
+                                    <div class="acco__text">
+                                         Вы можете ознакомиться с содержанием нашего проекта, изучить другие проекты и тогда ответ на этот вопрос станет очевидным. Если коротко то наш проект это первая в мире децентрализованная платформа, которая объединяет владельцев роутеров, пользователей, которым становиться доступен бесплатный интернет после просмотра рекламы и рекламодателей, которые могут транслировать свою рекламу в wi-fi сетях. Важно, что у нас есть действующий успешный бизнес, в котором уже реализованы основные технические элементы предусмотренные в World Wi-Fi.
+                                    </div>
+                                </div>
+                            </div> -->
                         </div>
                         <div class="row">
                             <div class="col text-center">
-                                <a href="index.html" class="btn btn--more">Main Page</a>
+                                <a href="index.html" class="btn btn--more">Главная</a>
                             </div>
                         </div>
                     </div>

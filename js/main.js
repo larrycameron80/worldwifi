@@ -55,29 +55,30 @@ $(document).ready(function () {
 $(function () {
     var menu = $('.hamburger__menu');
 
-    $('.hamburger').on('click', function (e) {
-        e.preventDefault();
-        menu.css({ 'display': 'flex' });
-        setTimeout(function () {
-            menu.addClass('hamburger__menu--active');
-        }, 100);
-    });
+    // $('.hamburger').on('click', e => {
+    //     e.preventDefault();
+    //     menu.css({'display': 'flex'});
+    //     setTimeout(function () {
+    //         menu.addClass('hamburger__menu--active');
+    //     }, 100);
 
-    $('.close-btn').on('click', function (e) {
-        e.preventDefault();
-        menu.removeClass('hamburger__menu--active');
-        setTimeout(function () {
-            menu.css({ 'display': 'none' });
-        }, 1500);
-    });
+    // })
+
+    // $('.close-btn').on('click', e => {
+    //     e.preventDefault();
+    //     menu.removeClass('hamburger__menu--active');
+    //     setTimeout(function () {
+    //         menu.css({'display': 'none'});
+    //     }, 1500);
+    // })
 
     $("#ham-menu").on("click", "a", function (event) {
         event.preventDefault();
-        menu.removeClass('hamburger__menu--active');
+        $('.navbar-collapse').removeClass('show');
         var id = $(this).attr('href'),
             top = $(id).offset().top;
         setTimeout(function () {
-            menu.css({ 'display': 'none' });
+            // menu.css({'display': 'none'});
             $('body,html').animate({
                 scrollTop: top
             }, 700);

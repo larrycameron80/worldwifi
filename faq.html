@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="format-detection" content="telephone=no">
+        <meta http-equiv="x-rim-auto-match" content="none">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <link rel="icon" href="img/favicon.ico">
+        <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+        <!-- <link rel="stylesheet" href="plugins/fullpage/jquery.fullpage.css"> -->
+        <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all">
+        <link rel="stylesheet" href="plugins/bxslider/jquery.bxslider.css">
+        <link rel="stylesheet" href="css/main.css?v=1.7">
+        <title>WorldWiFi</title>
+    </head>
+    <body>
+        <div class="maincontent">
+            <div class="header__fixed header__fixed--faq">
+                <div class="header__top">
+                    <div class="container-fluid">
+                        
+                        <div class="row justify-content-between">
+                            
+                            
+                            <nav class="navbar navbar-expand-xl">
+                                <a class="navbar-brand" href="en/index.html">
+                                    <img src="img/logo_left.png" alt="" class="logo__pic-left">
+                                    <img src="img/logo_right.png" alt="" class="logo__pic-right">
+                                </a>
+                                <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="hidden-xl">
+                                    <ul class="navbar-nav mr-auto">
+                                        <li class="nav-item">
+                                            <a href="#header" class="nav-link">ICO</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#about-us" class="nav-link">about wt</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#ico" class="nav-link">ICO structure</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#cost" class="nav-link">cost structure</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#roadmap" class="nav-link">roadmap</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#tech" class="nav-link">technical</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#team" class="nav-link">team</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#footer" class="nav-link">contacts</a>
+                                        </li>
+                                    </ul>
+                                </div> -->
+                            </nav>
+                            
+                            <ul class="header__top--items">
+                                <li class="flag-item"><a href="ru/index.html"><img src="img/flags/russia.png" alt=""></a></li>
+                                <li class="flag-item"><a href="en/index.html"><img src="img/flags/uk.png" alt=""></a></li>
+                                <li class="btn-item"><a class="btn btn-default btn-default__icon" href="en/login.html"><i class="fa fa-user-circle-o" aria-hidden="true"></i> <span class="btn-text">Login</span></a></li>
+                                <li class="btn-item"><a class="btn btn-default btn-default__icon" href="en/signup.html"><i class="fa fa-sign-in" aria-hidden="true"></i> <span class="btn-text">Sign Up</span></a></li>
+                            </ul>
+                        </div>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item">
+                                    <a href="#header" class="nav-link">ICO</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#about-us" class="nav-link">about wt</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#ico" class="nav-link">ICO structure</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#cost" class="nav-link">cost structure</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#roadmap" class="nav-link">roadmap</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#tech" class="nav-link">technical</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#team" class="nav-link">team</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#footer" class="nav-link">contacts</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="section faq">
+                <div class="wrapper faq__wrapper">
+                    <div class="container">
+                        <div class="faq__title faq__title--first">
+                            General
+                        </div>
+                        <div id="accordion" data-children=".faq__item">
+                            <div class="faq__item">
+                                <div class="acco__trigger acco__trigger--active">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#accordion1" aria-expanded="true" aria-controls="accordion1" class="acco__link">
+                                        What is World Wi-Fi?
+                                        <div class="acco__triangle"></div>
+                                    </a>
+                                </div>
+                                <div id="accordion1" class="collapse show" role="tabpanel">
+                                    <div class="acco__text">
+                                        World Wi-Fi is a global decentralized free network. The participants of the platform include ordinary users, router owners and advertisers. The users enjoy free internet, router owners are paid by advertisers for the ads viewed by the users; advertisers receive an effective tool for targeting of advertising and analytics of advertising campaign effectiveness.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq__item">
+                                <div class="acco__trigger">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#accordion2" aria-expanded="false" aria-controls="accordion2" class="acco__link">
+                                        What is ICO?
+                                        <div class="acco__triangle"></div>
+                                    </a>
+                                </div>
+                                <div id="accordion2" class="collapse" role="tabpanel">
+                                    <div class="acco__text">
+                                        ICO (Initial Coin Offering ) is a model of crowdfinding that allows to raise funds in exchange of tokens. Each token gives its owner the right to receive profit according to the declared conditions.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq__item">
+                                <div class="acco__trigger">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#accordion3" aria-expanded="false" aria-controls="accordion3" class="acco__link">
+                                        Do you have a Bounty program?
+                                        <div class="acco__triangle"></div>
+                                    </a>
+                                </div>
+                                <div id="accordion3" class="collapse" role="tabpanel">
+                                    <div class="acco__text">
+                                        "Yes, the incentive program has already started and will operate until the end of ICO.<a href="https://bitcointalk.org/index.php?topic=2583384">https://bitcointalk.org/index.php?topic=2583384</a>
+                                        Telegram Channel: @wwfbounty"
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq__item">
+                                <div class="acco__trigger">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#accordion4" aria-expanded="false" aria-controls="accordion4" class="acco__link">
+                                        What is the address of the company?
+                                        <div class="acco__triangle"></div>
+                                    </a>
+                                </div>
+                                <div id="accordion4" class="collapse" role="tabpanel">
+                                    <div class="acco__text">
+                                        94 Joo Chiat Rd, Singapore 427388 Joo Chiat Rd, Singapore 427388
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq__item">
+                                <div class="acco__trigger">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#accordion5" aria-expanded="false" aria-controls="accordion5" class="acco__link">
+                                        What social networks do you use? Where can I find official links to your social accounts?
+                                        <div class="acco__triangle"></div>
+                                    </a>
+                                </div>
+                                <div id="accordion5" class="collapse" role="tabpanel">
+                                    <div class="acco__text">
+                                        We use Telegram/ Bitcointalk /Wechat /Twitter /Facebook /Youtube /Instagram
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq__item">
+                                <div class="acco__trigger">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#accordion6" aria-expanded="false" aria-controls="accordion6" class="acco__link">
+                                        I still have questions …
+                                        <div class="acco__triangle"></div>
+                                    </a>
+                                </div>
+                                <div id="accordion6" class="collapse" role="tabpanel">
+                                    <div class="acco__text">
+                                        "The best way to learn about the project is to contact us directly. A list of all means of communication is at the bottom of each page of the site.
+                                        E-mail – info@bananacoin.io
+                                        Social media – Telegram Bitcointalk Wechat Twitter Facebook Youtube Instagram"
+                                    </div>
+                                </div>
+                            </div>
+                            <!--                             <div class="faq__item">
+                                <div class="acco__trigger">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#accordion7" aria-expanded="false" aria-controls="accordion7" class="acco__link">
+                                        Why did you not find for classical investors?
+                                        <div class="acco__triangle"></div>
+                                    </a>
+                                </div>
+                                <div id="accordion7" class="collapse" role="tabpanel">
+                                    <div class="acco__text">
+                                        As our project develops we have many proposals from potential investors from different business fiels, not related to crypto, all investors will receive equal conditions.
+                                    </div>
+                                </div>
+                            </div> -->
+                            <div class="faq__item">
+                                <div class="acco__trigger">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#accordion8" aria-expanded="false" aria-controls="accordion8" class="acco__link">
+                                        Why do not you use only classical methods of attracting investments?
+                                        <div class="acco__triangle"></div>
+                                    </a>
+                                </div>
+                                <div id="accordion8" class="collapse" role="tabpanel">
+                                    <div class="acco__text">
+                                        Good question. First, attracting different private investors may lead to business disagreements. We are professionals in our field and we know how to make a successfull business. Second, attracting money through the ICO does not give investors a share in business, it is a financial instrument and after fulfilling obligations the business itself will remain in the hands of the team.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq__item">
+                                <div class="acco__trigger">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#accordion9" aria-expanded="false" aria-controls="accordion9" class="acco__link">
+                                        In what jurisdiction ICO is conducted?
+                                        <div class="acco__triangle"></div>
+                                    </a>
+                                </div>
+                                <div id="accordion9" class="collapse" role="tabpanel">
+                                    <div class="acco__text">
+                                        Singapore and the US (Delaware)
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq__item">
+                                <div class="acco__trigger">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#accordion10" aria-expanded="false" aria-controls="accordion10" class="acco__link">
+                                        What is the current technical stage in the project development? Were there any tests conducted? Are there any results of those available? Do you have a MVP available for demonstration?
+                                        <div class="acco__triangle"></div>
+                                    </a>
+                                </div>
+                                <div id="accordion10" class="collapse" role="tabpanel">
+                                    <div class="acco__text">
+                                        We have two working  businesses for selling Wi-Fi advertising and hotspots. The model is tested in b2b marketing and has been runing for 2 years. The total number of connected access points is trending at 14,000 in 80 cities. In March a blockchain based model will be launched.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq__item">
+                                <div class="acco__trigger">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#accordion11" aria-expanded="false" aria-controls="accordion11" class="acco__link">
+                                        What legal base and expertise the project is premised on?
+                                        <div class="acco__triangle"></div>
+                                    </a>
+                                </div>
+                                <div id="accordion11" class="collapse" role="tabpanel">
+                                    <div class="acco__text">
+                                        User identification is conducted in compliance with the relevant legislation
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq__item">
+                                <div class="acco__trigger">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#accordion12" aria-expanded="false" aria-controls="accordion12" class="acco__link">
+                                        On what exchanges you trade?
+                                        <div class="acco__triangle"></div>
+                                    </a>
+                                </div>
+                                <div id="accordion12" class="collapse" role="tabpanel">
+                                    <div class="acco__text">
+                                        Out tokens will be available on exchanges upon the ICO completion.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq__item">
+                                <div class="acco__trigger">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#accordion13" aria-expanded="false" aria-controls="accordion13" class="acco__link">
+                                        Where they will be manufactured (purchased) and what is a router price?
+                                        <div class="acco__triangle"></div>
+                                    </a>
+                                </div>
+                                <div id="accordion13" class="collapse" role="tabpanel">
+                                    <div class="acco__text">
+                                        No need to buy a new router for World Wi-Fi. Most residential routers are compatible with our software.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq__title">
+                                Ico
+                            </div>
+                            <div class="faq__item">
+                                <div class="acco__trigger">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#accordion14" aria-expanded="false" aria-controls="accordion14" class="acco__link">
+                                        When is the PRESALE?
+                                        <div class="acco__triangle"></div>
+                                    </a>
+                                </div>
+                                <div id="accordion14" class="collapse" role="tabpanel">
+                                    <div class="acco__text">
+                                        PRESALE is on from 28 November to 16 March. More info at <a href="https://worldwifi.io">https://worldwifi.io</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq__item">
+                                <div class="acco__trigger">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#accordion15" aria-expanded="false" aria-controls="accordion15" class="acco__link">
+                                        When is the ICO?
+                                        <div class="acco__triangle"></div>
+                                    </a>
+                                </div>
+                                <div id="accordion15" class="collapse" role="tabpanel">
+                                    <div class="acco__text">
+                                        ICO Start/End Date: 18 MARCH / 18 APRIL, 2018
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq__item">
+                                <div class="acco__trigger">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#accordion16" aria-expanded="false" aria-controls="accordion16" class="acco__link">
+                                        Is there a minimum amount of funds you need to raise?
+                                        <div class="acco__triangle"></div>
+                                    </a>
+                                </div>
+                                <div id="accordion16" class="collapse" role="tabpanel">
+                                    <div class="acco__text">
+                                        "Soft cap – 3,500,000 US dollars
+                                        Hard cap – 25,000,000 US dollars
+                                        "
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq__item">
+                                <div class="acco__trigger">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#accordion17" aria-expanded="false" aria-controls="accordion17" class="acco__link">
+                                        What will be the volume/quantity of tokens issued during the private sale?
+                                        <div class="acco__triangle"></div>
+                                    </a>
+                                </div>
+                                <div id="accordion17" class="collapse" role="tabpanel">
+                                    <div class="acco__text">
+                                        The volume of token will be fixed 60,000,000 WeToken
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq__item">
+                                <div class="acco__trigger">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#accordion18" aria-expanded="false" aria-controls="accordion18" class="acco__link">
+                                        Is the number of tokens limited?
+                                        <div class="acco__triangle"></div>
+                                    </a>
+                                </div>
+                                <div id="accordion18" class="collapse" role="tabpanel">
+                                    <div class="acco__text">
+                                        Yes.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq__item">
+                                <div class="acco__trigger">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#accordion19" aria-expanded="false" aria-controls="accordion19" class="acco__link">
+                                        On which platform will be the token sale based on?
+                                        <div class="acco__triangle"></div>
+                                    </a>
+                                </div>
+                                <div id="accordion19" class="collapse" role="tabpanel">
+                                    <div class="acco__text">
+                                        The token sale will be based on the Ethereum platform
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq__item">
+                                <div class="acco__trigger">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#accordion20" aria-expanded="false" aria-controls="accordion20" class="acco__link">
+                                        Are there any restrictions for participation in ICO?
+                                        <div class="acco__triangle"></div>
+                                    </a>
+                                </div>
+                                <div id="accordion20" class="collapse" role="tabpanel">
+                                    <div class="acco__text">
+                                        By purchasing a token in the course of ICO, or in any other way you agree that you are not a citizen of the United States, Singapore, Canada, or any other country where tokens are equated to securities. Also, you must know whether you are violating the law of your country.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq__item">
+                                <div class="acco__trigger">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#accordion21" aria-expanded="false" aria-controls="accordion21" class="acco__link">
+                                        How much tokens will be available for purchase?
+                                        
+                                        <div class="acco__triangle"></div>
+                                    </a>
+                                </div>
+                                <div id="accordion21" class="collapse" role="tabpanel">
+                                    <div class="acco__text">
+                                        During PRESALE and ICO, 258,000,000 WT will be available for purchase.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq__item">
+                                <div class="acco__trigger">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#accordion22" aria-expanded="false" aria-controls="accordion22" class="acco__link">
+                                        Of particularly concern is the issue of the structure of the invested funds: you allocate 5% for contingencies which is almost $1,3 – what do those include, provided that as many as 20% go to the legal and technical component?
+                                        
+                                        <div class="acco__triangle"></div>
+                                    </a>
+                                </div>
+                                <div id="accordion22" class="collapse" role="tabpanel">
+                                    <div class="acco__text">
+                                        We have made a consolidated summary of estimates for the project promotion. A 5% adjustment might be incorporated for pricing fluctuation which is an appropriate standard of practice.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq__item">
+                                <div class="acco__trigger">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#accordion23" aria-expanded="false" aria-controls="accordion23" class="acco__link">
+                                        3% is allocated for advisers. This is a considerable amount ($774 when calculated in numbers). As many as 25 to 30 advisers might be engaged for the above amount. Could you provide more details about those?
+                                        <div class="acco__triangle"></div>
+                                    </a>
+                                </div>
+                                <div id="accordion23" class="collapse" role="tabpanel">
+                                    <div class="acco__text">
+                                        At the current stage we have been negotiating with top leaders of the cryptocurrency community. 3% account for engaging top advisers. At an early stage of the campaign, not all advisors have entered into agreements which is par for the course.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq__item">
+                                <div class="acco__trigger">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#accordion24" aria-expanded="false" aria-controls="accordion24" class="acco__link">
+                                        Where a smart contract is available?
+                                        
+                                        <div class="acco__triangle"></div>
+                                    </a>
+                                </div>
+                                <div id="accordion24" class="collapse" role="tabpanel">
+                                    <div class="acco__text">
+                                        In GitHub prior to ICO
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq__title">
+                                How to buy
+                            </div>
+                            <div class="faq__item">
+                                <div class="acco__trigger">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#accordion25" aria-expanded="false" aria-controls="accordion25" class="acco__link">
+                                        How can I purchase tokens?
+                                        
+                                        <div class="acco__triangle"></div>
+                                    </a>
+                                </div>
+                                <div id="accordion25" class="collapse" role="tabpanel">
+                                    <div class="acco__text">
+                                        <a href="https://docs.google.com/document/d/1xQ29dAAjtJCbM035wwtZguk0JNu_le-csi9_TNhP8NU/edit?usp=sharing">https://docs.google.com/document/d/1xQ29dAAjtJCbM035wwtZguk0JNu_le-csi9_TNhP8NU/edit?usp=sharing</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq__item">
+                                <div class="acco__trigger">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#accordion26" aria-expanded="false" aria-controls="accordion26" class="acco__link">
+                                        How to find the cost of one token relative to Etherium or Bitcoin?
+                                        
+                                        <div class="acco__triangle"></div>
+                                    </a>
+                                </div>
+                                <div id="accordion26" class="collapse" role="tabpanel">
+                                    <div class="acco__text">
+                                        The cost is calculated automatically at the time of confirmation of the transaction by the network based on the average value of the price on the exchanges.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq__item">
+                                <div class="acco__trigger">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#accordion27" aria-expanded="false" aria-controls="accordion27" class="acco__link">
+                                        What is the cost of one token?
+                                        
+                                        <div class="acco__triangle"></div>
+                                    </a>
+                                </div>
+                                <div id="accordion27" class="collapse" role="tabpanel">
+                                    <div class="acco__text">
+                                        1 WeToken = 10 advertising impressions in World Wi-Fi = $0.1 - at ICO stage.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq__item">
+                                <div class="acco__trigger">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#accordion28" aria-expanded="false" aria-controls="accordion28" class="acco__link">
+                                        How can I invest?
+                                        
+                                        <div class="acco__triangle"></div>
+                                    </a>
+                                </div>
+                                <div id="accordion28" class="collapse" role="tabpanel">
+                                    <div class="acco__text">
+                                        There are detailed instructions on the main page of the site, if necessary our support in the Telegram chat can help you. The easiest way is to transfer the etherium to a smart contract from your personal wallet with the erc223 standard. The tokens return to your wallet automatically after confirmation of network.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq__item">
+                                <div class="acco__trigger">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#accordion29" aria-expanded="false" aria-controls="accordion29" class="acco__link">
+                                        I want to make payment in dollars, how to do it?
+                                        
+                                        <div class="acco__triangle"></div>
+                                    </a>
+                                </div>
+                                <div id="accordion29" class="collapse" role="tabpanel">
+                                    <div class="acco__text">
+                                        For beginners in the field of crypto currencies, there is a detailed instruction on the initial page. If it is a large investment (from $ 50,000), the organizers are ready for a personal meeting.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq__item">
+                                <div class="acco__trigger">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#accordion30" aria-expanded="false" aria-controls="accordion30" class="acco__link">
+                                        On the main page of the site and in my personal account there are various addresses of directions to the etherium, where to pay?
+                                        <div class="acco__triangle"></div>
+                                    </a>
+                                </div>
+                                <div id="accordion30" class="collapse" role="tabpanel">
+                                    <div class="acco__text">
+                                        If you pay from a personal wallet, with the erc223 standard, you can pay directly to the address of the smart contract (address on the main page), the tokens return in automatic mode. If the exchange is with a stock exchange, exchanger, etc., then it is necessary to use a personal cabinet, tokens will be credited in it.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq__item">
+                                <div class="acco__trigger">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#accordion31" aria-expanded="false" aria-controls="accordion31" class="acco__link">
+                                        Maximum number of tokens
+                                        
+                                        <div class="acco__triangle"></div>
+                                    </a>
+                                </div>
+                                <div id="accordion31" class="collapse" role="tabpanel">
+                                    <div class="acco__text">
+                                        600,000,000
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq__item">
+                                <div class="acco__trigger">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#accordion32" aria-expanded="false" aria-controls="accordion32" class="acco__link">
+                                        What’s the minimum of investment during token sale?
+                                        <div class="acco__triangle"></div>
+                                    </a>
+                                </div>
+                                <div id="accordion32" class="collapse" role="tabpanel">
+                                    <div class="acco__text">
+                                        The minimal possible purchase is 1 WeToken
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq__item">
+                                <div class="acco__trigger">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#accordion33" aria-expanded="false" aria-controls="accordion33" class="acco__link">
+                                        What is the gas?
+                                        <div class="acco__triangle"></div>
+                                    </a>
+                                </div>
+                                <div id="accordion33" class="collapse" role="tabpanel">
+                                    <div class="acco__text">
+                                        The gas is a unit of measurement in which the prices for calculations on the Etherium are measured. The more complex calculation is, the more it is rewarded with gas. This works as follows: the originator of a smart contract sets the price in gases. Miners, on whose computers the calculations are performed, decide whether to perform these calculations or not. If the price is too high, the calculations, and the contract, will never be executed.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq__title">
+                                About Token
+                            </div>
+                            <div class="faq__item">
+                                <div class="acco__trigger">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#accordion34" aria-expanded="false" aria-controls="accordion34" class="acco__link">
+                                        The ERC223 standard of the token, what is it?
+                                        <div class="acco__triangle"></div>
+                                    </a>
+                                </div>
+                                <div id="accordion34" class="collapse" role="tabpanel">
+                                    <div class="acco__text">
+                                        This is the most modern standard for a token based on the Etherium network. It will support the transparency of transactions with investors. Important: your etherium wallet must support this standard to obtain tokens.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq__item">
+                                <div class="acco__trigger">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#accordion35" aria-expanded="false" aria-controls="accordion35" class="acco__link">
+                                        On which exchanges will the tokens be traded?
+                                        <div class="acco__triangle"></div>
+                                    </a>
+                                    
+                                </div>
+                                <div id="accordion35" class="collapse" role="tabpanel">
+                                    <div class="acco__text">
+                                        This information will be published in July 2018, at this stage negotiations are in progress.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq__item">
+                                <div class="acco__trigger">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#accordion36" aria-expanded="false" aria-controls="accordion36" class="acco__link">
+                                        How will the tokens be redeemed?
+                                        <div class="acco__triangle"></div>
+                                    </a>
+                                    
+                                </div>
+                                <div id="accordion36" class="collapse" role="tabpanel">
+                                    <div class="acco__text">
+                                        We are developing a transparent algorithm for open redemption. Previously, this will be the redemption of tokens from exchanges, and we also consider connecting the capabilities of our site for this purpose.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq__title">
+                                Security
+                            </div>
+                            <!--                             <div class="faq__item">
+                                <div class="acco__trigger">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#accordion37" aria-expanded="false" aria-controls="accordion37" class="acco__link">
+                                        How do you ensure the safekeeping of the tokens?
+                                        <div class="acco__triangle"></div>
+                                    </a>
+                                    
+                                </div>
+                                <div id="accordion37" class="collapse" role="tabpanel">
+                                    <div class="acco__text">
+                                        The vast majority of the system's tokens is kept in cold storage, and we ensure the strict safety procedures. Account access in secured with two-factor verification which prevents unauthorized access.
+                                    </div>
+                                </div>
+                            </div> -->
+                            <div class="faq__item">
+                                <div class="acco__trigger">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#accordion38" aria-expanded="false" aria-controls="accordion38" class="acco__link">
+                                        How do I know my tokens are secure?
+                                        <div class="acco__triangle"></div>
+                                    </a>
+                                    
+                                </div>
+                                <div id="accordion38" class="collapse" role="tabpanel">
+                                    <div class="acco__text">
+                                        Your tokens will be securely stored in your wallet. We use the encryption with two factor authentification.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq__title">
+                                Team
+                            </div>
+                            <!--                             <div class="faq__item">
+                                <div class="acco__trigger">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#accordion39" aria-expanded="false" aria-controls="accordion39" class="acco__link">
+                                        What is your CEO background?
+                                        <div class="acco__triangle"></div>
+                                    </a>
+                                    
+                                </div>
+                                <div id="accordion39" class="collapse" role="tabpanel">
+                                    <div class="acco__text">
+                                        "Our CEO - Ilya Yashin.
+                                        Experience working in IT for 17 years.
+                                        Graduated from Bauman Moscow State Technical University. For 5 years,  working in various capacities in Federal Rescue Service as fire fighter, foreman, senior communication technician in the Office for the coordination of the RF Rescue Service. After that, working for the Research and Implementation Center of automated systems as tester of software and engineer. Founder of the system integrator Jack IT. Co-founder of Radius Wi-Fi, a technological project to provide owners of Wi-Fi public networks with software to identify users via a phone number. Co-Founder of AdRenta, the first aggregator of Wi-Fi public hotspots for sales of advertising."
+                                    </div>
+                                </div>
+                            </div> -->
+                            <div class="faq__item">
+                                <div class="acco__trigger">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#accordion40" aria-expanded="false" aria-controls="accordion40" class="acco__link">
+                                        What are the skills of your techical director?
+                                        <div class="acco__triangle"></div>
+                                    </a>
+                                    
+                                </div>
+                                <div id="accordion40" class="collapse" role="tabpanel">
+                                    <div class="acco__text">
+                                        Eugene Khashin
+                                        CTO
+                                        Education: TSU - Mathematician, Aptech CE - Database specialist. Co-founder of the first Russian PaaS "Dokkur", CTO "Swanager - infrastructure provider".
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq__title">
+                                Other
+                            </div>
+                            <div class="faq__item">
+                                <div class="acco__trigger">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#accordion41" aria-expanded="false" aria-controls="accordion41" class="acco__link">
+                                        How is your project different from Hot Wi-Fi?
+                                        <div class="acco__triangle"></div>
+                                    </a>
+                                    
+                                </div>
+                                <div id="accordion41" class="collapse" role="tabpanel">
+                                    <div class="acco__text">
+                                        The subscription model is used in Radius, and World Wi-Fi is not based on a subscription model
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq__item">
+                                <div class="acco__trigger">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#accordion42" aria-expanded="false" aria-controls="accordion42" class="acco__link">
+                                        Who has already invested into your project?
+                                        <div class="acco__triangle"></div>
+                                    </a>
+                                    
+                                </div>
+                                <div id="accordion42" class="collapse" role="tabpanel">
+                                    <div class="acco__text">
+                                        The project initiators have invested personal funds. In addition, we have collected funds from private investors and foundations
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq__item">
+                                <div class="acco__trigger">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#accordion43" aria-expanded="false" aria-controls="accordion43" class="acco__link">
+                                        How are you going to partner with to develop globally?
+                                        <div class="acco__triangle"></div>
+                                    </a>
+                                </div>
+                                <div id="accordion43" class="collapse" role="tabpanel">
+                                    <div class="acco__text">
+                                        World Wi-Fi is a technological platform to be developed though engaging new participants via marketing and PR campaigns in many regions (see details in Financial Model), as well as by engaging system administrators, router installation servicemen, etc. in our referral program. Besides, it is our intention to develop the business throughout public Wi-Fi networks around the world which is an already existing business model (our existing projects Adrenta and Radius Wi-Fi are based on that system).
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col text-center">
+                                <a href="index.html" class="btn btn--more">Main Page</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer class="section footer" id="footer">
+                <div class="particles-js particles-js--left"></div>
+                <div class="particles-js particles-js--right"></div>
+                <div class="wrapper footer__wrapper">
+                    <div class="container">
+                        <div class="contacts__title">
+                            Contacts
+                        </div>
+                        <div class="contacts__company">World Wi-Fi PTE. LTD.</div>
+                        <div class="contacts__adress"> 176 Joo Chiat Road #02-02 Singapore 427447</div>
+                    </div>
+                    <div class="container container-wide">
+                        <div class="map" id="map">
+                        </div>
+                    </div>
+                    <!-- <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-6 col-md-8 col-sm-12">
+                                <div class="form">
+                                    <form action="/" class="form__elem">
+                                        <div class="form__row">
+                                            <div class="input__block">
+                                                <input type="email" class="email" placeholder="Add to White List">
+                                                <button type="submit" class="submit">
+                                                <img src="img/mail-send.png" alt="email">
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-md-10 text-center">
+                                <div class="social__btns">
+                                    <a href="https://t.me/world_wifi" class="social__link">
+                                        <img src="img/socials/telegram.png" alt="telegram" class="social__pic">
+                                    </a>
+                                    <a href="https://twitter.com/WorldWifi_ICO" class="social__link">
+                                        <img src="img/socials/twitter.png" alt="twitter" class="social__pic">
+                                    </a>
+                                    <a href="https://www.facebook.com/groups/worldwifi.io" class="social__link">
+                                        <img src="img/socials/facebook.png" alt="facebook" class="social__pic">
+                                    </a>
+                                    <a href="https://medium.com/@WorldWifi_ICO" class="social__link">
+                                        <img src="img/socials/medium.png" alt="medium" class="social__pic">
+                                    </a>
+                                    <a href="#" class="social__link">
+                                        <img src="img/socials/github.png" alt="github" class="social__pic">
+                                    </a>
+                                    <a href="https://bitcointalk.org/index.php?topic=2518622" class="social__link">
+                                        <img src="img/socials/btc.png" alt="bitcoin" class="social__pic">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <div class="footer__logo">
+                                    <img src="img/footer-logo.png" alt="logo" class="footer__logo-pic">
+                                </div>
+                            </div>
+                            <!-- <div class="col-md-6 text-right">
+                                <div class="contacts__email-group">
+                                    <div class="contacts__email">
+                                        For General inquiries email us at
+                                        <a href="#" class="email__link">info@worldwifi.io</a>
+                                    </div>
+                                    <div class="contacts__email">
+                                        Cooperation in the field of PR
+                                        <a href="#" class="email__link">bp@worldwifi.io</a>
+                                    </div>
+                                </div>
+                            </div> -->
+                        </div>
+                        <div class="row align-items-end">
+                            <div class="col-sm-4 col-12">
+                                <div class="footer__text">
+                                    The project World Wi-Fi will expand global internet coverage and will provide users with free access to Wi-Fi network.
+                                </div>
+                            </div>
+                            <div class="col-sm-4 col-12">
+                                <div class="footer__navigation">
+                                    <nav class="nav__bar">
+                                        <ul class="nav__list">
+                                            <li class="nav__item">
+                                                <!-- <a href="#" class="nav__link">privacy</a> -->
+                                                <a target="blank" href="/files/policy/SAFT WT TOKEN_V2.pdf" class="email__link email__link--big">SAFT</a>
+                                            </li>
+                                            <li class="nav__item">
+                                                <!-- <a href="#" class="nav__link">privacy</a> -->
+                                                <a target="blank" href="/files/policy/Privacy Policy.pdf" class="email__link email__link--big">Privacy Policy</a>
+                                            </li>
+                                            <li class="nav__item">
+                                                <!-- <a href="#" class="nav__link">help</a> -->
+                                                <a target="blank" href="/files/policy/Legal_Memorandum_on_We_Token_issuance.pdf" class="email__link email__link--big">Legal Memorandum on We Token issuance</a>
+                                            </li>
+                                            <li class="nav__item">
+                                                <!-- <a href="#" class="nav__link">terms & condition</a> -->
+                                                <a target="blank" href="/files/policy/OFFERING MEMORANDUM section S and D_V3.pdf" class="email__link email__link--big">INITIAL SAFT OFFERING MEMORANDUM</a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 col-12">
+                                <div class="content">
+                                    <div class="contacts__email-group">
+                                        <div class="contacts__email">
+                                            General inquiries
+                                            <a href="#" class="email__link">info@worldwifi.io</a>
+                                        </div>
+                                        <div class="contacts__email">
+                                            Cooperation PR
+                                            <a href="#" class="email__link">bp@worldwifi.io</a>
+                                        </div>
+                                        <div class="footer__telegram">
+                                            Telegram
+                                            <a href="#" class="telegram__link">
+                                                <img src="img/footer-logo2.png" alt="tele" class="link-icon"> @worldwifi
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+        crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+        crossorigin="anonymous"></script>
+        <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB_HZfr9jx0yRN1z__LJQwvankU5sPCWZo&language=en&callback=initMap">
+        </script>
+        <script src="plugins/particles/particles.js"></script>
+        <script src="plugins/particles/app.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/gmap.js"></script>
+    </body>
+</html>
